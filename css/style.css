@@ -2,7 +2,7 @@
 /* CSS Document */
 .jumbotron{
 	background-size:cover; 
-	background-image: url("../WordCampDallas/Dallas2.png");
+	background-image: url("img/Dallas2.png");
 }
 .display-4{
 	background-color: white;
