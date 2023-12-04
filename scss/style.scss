@@ -1,12 +1,26 @@
-// Scss Document
-.jumbotron{
-	background-size:cover; 
-	background-image: url("../img/Dallas2.png");
+$font-stack: Lucida Console, monospace;
+$primary-color: #333;
+$myfontsize: 18px;
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+  font-size: $myfontsize;
 }
-.display-4{
-	background-color: white;
+h1{
+	color: $primary-color;
 }
-.lead{
-	color: white;
-	font-weight: 500;
+nav {
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li { display: inline-block; }
+
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+  }
 }

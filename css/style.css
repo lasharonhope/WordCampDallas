@@ -1,13 +1,20 @@
-@charset "utf-8";
-/* CSS Document */
-.jumbotron{
-	background-size:cover; 
-	background-image: url("img/Dallas2.png");
-}
-.display-4{
-	background-color: white;
-}
-.lead{
-	color: white;
-	font-weight: 500;
-}
+body {
+  font: 100% Lucida Console, monospace;
+  color: #333;
+  font-size: 18px; }
+
+h1 {
+  color: #333; }
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+nav li {
+  display: inline-block; }
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */
