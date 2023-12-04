@@ -1,6 +1,8 @@
-$font-stack: Lucida Console, monospace;
+$font-stack: Myriad Pro, sans-serif;
 $primary-color: #333;
 $myfontsize: 18px;
+$myfontsize2: 14px;
+
 body {
   font: 100% $font-stack;
   color: $primary-color;
@@ -8,6 +10,9 @@ body {
 }
 h1{
 	color: $primary-color;
+}
+p {
+	font-size: $myfontsize2;
 }
 nav {
   ul {
