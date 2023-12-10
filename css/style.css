@@ -19,5 +19,16 @@ nav a {
   display: block;
   padding: 6px 12px;
   text-decoration: none; }
+.jumbotron{
+	background-size:cover; 
+	background-image: url("../img/Dallas2.png");
+}
+.display-4{
+	background-color: white;
+}
+.lead{
+	color: white;
+	font-weight: 500;
+}
 
 /*# sourceMappingURL=style.css.map */

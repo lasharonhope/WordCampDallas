@@ -2,6 +2,7 @@ $font-stack: Myriad Pro, sans-serif;
 $primary-color: #333;
 $myfontsize: 18px;
 $myfontsize2: 14px;
+$primary-color2: white;
 
 body {
   font: 100% $font-stack;
@@ -28,4 +29,16 @@ nav {
     padding: 6px 12px;
     text-decoration: none;
   }
+	.jumbotron{
+	background-size:cover; 
+	background-image: url("../img/Dallas2.png");
+}
+.display-4{
+	background-color: $primary-color2;
+}
+.lead{
+	color: $primary-color2;
+	font-weight: 500;
+}
+
 }
